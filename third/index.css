@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* html, body{
+    margin: 0;
+    padding: 0;
+} */
+
+div{
+    width: 100vw;
+    height: 15vh;
+}
+
+#top-bar{
+    background-color: grey;
+    padding: 1vh;
+}
+
+#logo{
+    height: 13vh;
+    width: 13vh;
+    background-color: lightblue;
+}
+
+#second-bar{
+    height: calc(100vh - (5*15vh));
+}
+
+#third-bar{
+    background-color: blue;
+}
+
+#fourth-bar{
+    background-color: teal;
+}
+
+#fifth-bar{
+    background-color: yellowgreen;
+}
+
+#sixth-bar{
+    background-color: yellow;
+}
+
+p{
+    padding: 2rem;
+}
+
